@@ -6,18 +6,28 @@
     font-size: 16px;
 }
 
+.big-container {
+    width: 75rem;
+    margin: auto;
+    padding: 1rem;
+}
+
 .container {
     width: 60rem;
     margin: auto;
     padding: 1rem;
 }
 
-/*style css header */
+/*header nav*/
 
 header {
     position: fixed;
     padding: 1rem;
     width: 100%;
+}
+
+.nav {
+    padding-bottom: .5rem;
 }
 
 .link.left img {
@@ -48,4 +58,64 @@ header ul {
 .link.right button {
     background-color: #0061FF;
     color: white;
+    border: transparent;
+    padding: 0.5rem;
 }
+
+/* header jumbo */
+
+.jumbo {
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.jb-content {
+    position: relative;
+    top: 3.5rem;
+}
+
+.jumbo h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+}
+
+.d-flex-jb {
+    display: flex;
+}
+
+.col {
+    background-color: aquamarine;
+}
+
+.col-jb.img img {
+    max-width: 40rem;
+}
+
+.col-jb.text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+}
+
+.col-jb.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-jb.text i {
+    font-size: 2rem;
+    padding: 0 0 2.5rem;
+    font-weight: 800;
+}
+
+.button {
+    background-color: #0061FF;
+    color: white;
+    padding: .8rem;
+    border: transparent;
+    width: 80%;
+}
+
+/* sezione colonne */
