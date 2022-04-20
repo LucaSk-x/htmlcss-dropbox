@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 60rem;
+    width: 60rem;
     margin: auto;
     padding: 1rem;
 }
@@ -17,7 +17,7 @@
 header {
     position: fixed;
     padding: 1rem;
-    max-width: 100%;
+    width: 100%;
 }
 
 .link.left img {
@@ -25,8 +25,7 @@ header {
 }
 
 .d-flex-hd {
-    display: flex;    
-    justify-content: space-between;
+    display: flex;    justify-content: space-between;
     align-items: center;
 
 }
