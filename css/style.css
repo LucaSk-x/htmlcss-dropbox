@@ -19,7 +19,11 @@
 }
 
 section {
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -136,7 +140,6 @@ header ul {
 /* sezione colonne */
 
 .sez-col h2 {
-    font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
@@ -237,4 +240,24 @@ header ul {
     border: 1px solid gray;
 background-color: transparent;
 color: rgb(87, 87, 87);
+}
+
+/* operazioni colonne */
+
+.pad-op {
+    padding: 2rem 0;
+}
+
+.row-op {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.col-op img{
+    max-width: 100%;
+}
+
+.col-op h2 {
+    padding: 2rem 0;
 }
