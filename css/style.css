@@ -250,8 +250,12 @@ color: rgb(87, 87, 87);
 
 .row-op {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     padding-bottom: 5rem;
+}
+
+.row-op h3 {
+    padding: 1rem 0;
 }
 
 .col-op img{
