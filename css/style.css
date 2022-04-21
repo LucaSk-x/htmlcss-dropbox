@@ -22,6 +22,10 @@ section {
     padding-bottom: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 /*header nav*/
 
 header {
@@ -164,10 +168,6 @@ header ul {
     min-height: 910px;
 }
 
-.info-card h3 {
-    font-size: 1.5rem;
-}
-
 .info-card ul {
     list-style: none;
 
@@ -215,10 +215,26 @@ header ul {
 }
 
 .card-text h3 {
-    font-size: 1.5rem;
     padding: 1rem 0;
 }
 
 .button-card {
     align-self: center;
+}
+
+/* partener section */
+
+.img-partner img {
+    width: 90%;
+}
+
+.col-jb.text p {
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.button.partner {
+    border: 1px solid gray;
+background-color: transparent;
+color: rgb(87, 87, 87);
 }
