@@ -21,13 +21,18 @@
 /*header nav*/
 
 header {
-    position: fixed;
     padding: 1rem;
     width: 100%;
 }
 
 .nav {
-    padding-bottom: .5rem;
+    padding: 1rem;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .link.left img {
@@ -67,6 +72,7 @@ header ul {
 .jumbo {
     background-color: #B4D0E7;
     position: relative;
+    margin-top: 55px;
 }
 
 .jb-content {
