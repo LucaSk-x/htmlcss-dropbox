@@ -414,3 +414,17 @@ footer li {
 footer .col-jb {
     color: white;
 }
+
+.leanguage {
+    padding: 2rem 0;
+    color: grey;
+}
+
+.leanguage h3 {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.EasterEgg {
+    color: rgb(9, 9, 9);
+}
