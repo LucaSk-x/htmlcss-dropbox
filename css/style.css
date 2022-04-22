@@ -109,7 +109,7 @@ header ul {
 }
 
 .col-jb.img img {
-    max-width: 40rem;
+    max-width: 45rem;
 }
 
 .col-jb.text {
@@ -264,4 +264,153 @@ color: rgb(87, 87, 87);
 
 .col-op h2 {
     padding: 2rem 0;
+}
+
+/* square */
+.sec-square {
+    padding-bottom: unset;
+}
+
+.square-3 {
+    display: flex;
+
+}
+
+.contain-square {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    width: 50%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.square img {
+    width: 100%;
+    filter: invert(1);
+}
+
+.square-center {
+    padding: 3rem;
+}
+
+.square-center img {
+    width: 60%;
+    padding-bottom: 3rem;
+}
+
+.square-center p {
+    padding: 2rem 0;
+}
+
+.bg-color1 {
+    background-color: #a2d39b;
+}
+
+.bg-color2 {
+    background-color: #61082b;
+}
+
+.bg-color3 {
+    background-color: #0093ce;
+}
+
+.bg-color4 {
+    background-color: #ff1c1c;
+}
+
+.bg-color5 {
+    background-color: #d5001f;
+}
+
+.bg-color6 {
+    background-color: #b4d0e7;
+}
+
+.bg-color7 {
+    background-color: #0d2481;
+}
+
+.bg-color8 {
+    background-color: #ffd830;
+}
+
+/* drop azienda */
+
+.Drop-azienda {
+    background-color: #b4d0e7;
+    padding: 5rem 0;
+}
+
+.azienda-bt {
+    align-self: center;
+}
+
+.Drop-azienda h2 {
+    color: #61082b;
+}
+
+.button.azienda {
+    color: rgb(78, 78, 78);
+    background-color: white;
+    border: 1px solid gray;
+}
+
+/* Domande */
+
+.domande h2 {
+    padding: 5rem 0 2rem;
+}
+
+.ask-text {
+    padding: 2rem 0
+}
+
+.frequently-asked i {
+    align-self: center;
+}
+
+.domande .border-hr {
+    width: 100%;
+}
+
+.frequently-asked {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 2rem 0;
+    color: white;
+}
+
+footer .d-flex-jb {
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li {
+    padding: .5rem 0;
+}
+
+footer .col-jb {
+    color: white;
 }
